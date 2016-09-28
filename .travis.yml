@@ -5,7 +5,7 @@ node_js:
   - "4"
 addons:
     code_climate:
-        repo_token: 8ecc46ae6699c0c0af31df958007b27f40ab93c710b3a34d5b87c919ae6a1eca
+        repo_token: 91026551c32ad92ee6cd88f9c32776be3a306637d54500092ddb52d3c39b32ce
 after_script:
   - npm run cover
 # deploy:

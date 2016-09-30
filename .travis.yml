@@ -8,10 +8,10 @@ addons:
         repo_token: 91026551c32ad92ee6cd88f9c32776be3a306637d54500092ddb52d3c39b32ce
 after_script:
   - npm run cover
-# deploy:
-#   provider: npm
-#   api_key: d5c7a776-c2c2-4d19-8be3-7685f1f43f98
-#   email: richardpj@gmail.com
-#   on:
-#     branch: master
+deploy:
+  provider: npm
+  api_key: d5c7a776-c2c2-4d19-8be3-7685f1f43f98
+  email: richardpj@gmail.com
+  on:
+    branch: master
 

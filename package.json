@@ -1,6 +1,6 @@
 {
   "name": "relcov",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple CLI tool for transforming absolute lcov source file paths to paths relative to the source root.",
   "main": "index.js",
   "bin": {

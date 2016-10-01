@@ -1,22 +1,33 @@
 {
   "name": "relcov",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "author": {
+      "name": "Richard Pierce-Jones",
+      "email": "richardpj@gmail.com"
+  },
   "description": "A simple CLI tool for transforming absolute lcov source file paths to paths relative to the source root.",
   "keywords": [
       "lcov",
       "relative",
       "path",
       "coverage",
-      "test"
+      "test",
+      "ci",
+      "cli",
+      "tool",
+      "npm",
+      "npm-scripts",
+      "commandline"
   ],
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richardpj/relcov.git"
+    "url": "https://github.com/richardpj/relcov.git"
   },
   "bugs": {
     "url": "https://github.com/richardpj/relcov/issues"
   },
+  "license": "MIT",
+  "main": "index.js",
   "bin": {
     "relcov": "bin/relcov.js"
   },
@@ -24,8 +35,6 @@
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
     "cover": "node ./bin/relcov.js < ./coverage/lcov.info | codeclimate-test-reporter"
   },
-  "author": "Richard Pierce-Jones",
-  "license": "MIT",
   "dependencies": {
     "split": "^1.0.0"
   },

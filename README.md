@@ -46,6 +46,12 @@ relcov < ./coverage/lcov.info | codeclimate-test-reporter
 It will read the the lcov file from stdin and push the (relative) lcov file
 to stdout.  It will make the paths relative to the current working directory.
 
+## Issues
+
+relcov is a very simple tool covering my specific use case. If you find it 
+useful and require other features don't hesitate to 
+[log an issue](https://github.com/richardpj/relcov/issues)
+
 ## LICENSE
 
 [MIT](LICENSE)
